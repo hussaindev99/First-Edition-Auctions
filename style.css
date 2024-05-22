@@ -1,0 +1,33 @@
+ body {
+     color: rgb(3, 3, 3)
+ }
+
+ table {
+     width: 600px;
+ }
+
+ th,
+ td {
+     padding: 7px 10px 10px 10px;
+ }
+
+ th {
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-size: 90%;
+     border-bottom: 2px solid greenyellow;
+     border-top: 1px solid navy;
+     text-align: right
+ }
+
+ tr.even {
+     background-color: plum;
+ }
+
+ tr:hover {
+     background-color: red
+ }
+ 
+ .money {
+     text-align: right;
+ }
